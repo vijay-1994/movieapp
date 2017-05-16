@@ -52,10 +52,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ximanta/movie-cruiser"
+    "url": "git+https://github.com/stackroute-immersive-wave/movie-cruiser.git"
   },
   "bugs": {
-    "url": "https://github.com/ximanta/movie-cruiser/issues"
+    "url": "https://github.com/stackroute-immersive-wave/movie-cruiser/issues"
   },
-  "homepage": "https://github.com/ximanta/movie-cruiser#readme"
+  "homepage": "https://github.com/stackroute-immersive-wave/movie-cruiser/#readme"
 }
