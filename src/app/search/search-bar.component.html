@@ -1,0 +1,4 @@
+<md-input-container>
+  <input mdInput placeholder="Movie" value="Movie" #movieName>
+</md-input-container>
+<button md-button (click)="searchMovie(movieName.value)">Go!</button>

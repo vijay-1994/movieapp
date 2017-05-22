@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule, MdInputModule} from '@angular/material';
+import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModule, MdInputModule,MdGridListModule} from '@angular/material';
 
 @NgModule({
   imports: [
@@ -10,7 +10,8 @@ import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModu
     MdCardModule,
     MdToolbarModule,
     MdIconModule,
-    MdInputModule
+    MdInputModule,
+    MdGridListModule
   ],
   exports: [
     BrowserAnimationsModule,
@@ -19,7 +20,8 @@ import { MdButtonModule, MdCardModule, MdMenuModule, MdToolbarModule, MdIconModu
     MdCardModule,
     MdToolbarModule,
     MdIconModule,
-    MdInputModule
+    MdInputModule,
+    MdGridListModule
  ]
 })
 export class MovieAppMaterialModule { }
